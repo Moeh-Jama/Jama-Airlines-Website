@@ -1,0 +1,782 @@
+body{
+	background-color: #fff;
+	width: 100%;
+}
+.Column-A{
+	float: right;
+	width: 20%;
+	padding: 15px;
+}
+@media screen and (max-width: 903px){
+	.Column-A{
+		display: none;
+	}
+	.Column-B{
+		width: 98%;
+	}
+}
+#Deal-Info{
+	background-color: #3C0000;
+	padding: 15px;
+	padding-left: 10px;
+	width: 100%;
+}
+#Membership-Deal{
+	text-align: center;
+	color: #fff;
+	font-weight: 100;
+}
+#Membership-Deal span{
+	color: orange;
+}
+#Wing{
+	border: 1px solid black;
+	width: 100%;
+}
+#ShireClub{
+	background-color: #4F1919;
+	color: #666;
+	padding: 5px;
+}
+#ShireClub span{
+	color: orange;
+}
+#RD-MR{
+	text-decoration: none;
+	color: #666;
+}
+#RD-MR:hover{
+	text-decoration: none;
+	color: #B2B2B2;
+}
+#Jair{
+	background-color: #3C0000;
+	margin-top: 5px;
+	padding-left: 10px;
+	padding: 15px;
+	width: 100%;
+}
+#JairPar{
+	background-color: #4F1919;
+	color: #1f0a0a;
+	padding: 5px;
+}
+#JairPar:first-letter{
+	color: black;
+	font-size: xx-large;
+}
+#J-img{
+	border: 1px solid black;
+	width: 100%;
+}
+.Column-B{
+	float:left;
+	max-width: 963px;
+	width: 75%;
+	padding: 5px;
+}
+/*This is my Header here I designed it to be nearly the width
+of the page, with 1% margins*/
+.Header{
+	position: relative;
+	background-color: #4C0000;
+	border-bottom: 3px solid #3C0000;
+	margin-top: 0;
+	width: 98%;
+	padding: 5px;
+	height: 135px;
+	margin-left: 1%;
+}
+.container{
+	width: 90%;
+	max-width: 1000px;
+	position: relative;
+	padding: 5px;
+	margin: 0 auto;
+}
+#Reg{
+	float: right;
+	color: #fff;
+}
+#Login{
+	margin-right: 5px;
+}
+#Signup{
+	margin-right: 5px;
+}
+#Login a:link,#Login a:visited{
+	color:#fff;
+	text-decoration: none;
+}
+#Login a:hover,#Login a:active{
+	color: #fff;
+}
+#Signup a:link,#Signup a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+#Signup a:link,#Signup a:visited{
+	color: #fff;
+}
+#Search{
+	width: 120px;
+	max-width: 120px;
+	height: 25px;
+	max-height: 25px;
+}
+#Ssearch{
+	margin-left: 5px;
+}
+
+.Logo{
+	float: left;
+	width: 150px;
+	font-family: Courier;
+	background-color: #fff;
+	margin: 5px;
+	padding: 5px;
+}
+.Logo #LogoNam{
+	text-decoration: none;
+}
+#LogoNam a:link, #LogoNam a:visited{
+	text-decoration: none;
+	color: black;
+}
+#LogoNam a:hover, #LogoNam a:active{
+	color: gray;
+}
+
+
+.Menu{
+	float: right;
+	margin-right: 2px;
+	padding:8px;
+	clear: both;
+}
+
+.Menu .Menu-List{
+	float: right;
+	display: inline;
+	font-family:Georgia,serif;
+	font-variant: small-caps;
+	line-height: 1em;
+	font-size: 1.25em;
+	font-weight: 100;
+	margin: 1px;
+	margin-top: 1px;
+	padding-top: 0;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+#ML-Hid{
+	display: none;
+}
+.Menu .Menu-List a:link,.Menu-List a:visited{
+	color: #fff;
+	padding: 12.5px;
+	background-color: transparent;
+	text-decoration: none;
+}
+.Menu .Menu-List a:hover,.Menu-List a:active{
+	padding: 12.5px;
+	background-color: #5D1919;
+	
+}
+/*This helps */
+@media screen and (max-width: 960px){
+	.Logo{
+	float: left;
+	width: 100px;
+	bottom: 100px;
+}
+.Header #This {
+	display: none;
+	}
+	.Header #ML-Hid{
+	display: inline;
+	}
+}
+@media screen and (max-width: 600px){
+	.Header{
+		
+		height: 340px;
+	}
+	.Menu{
+		width: 100%;
+		display: block;
+	}
+	.Header .Menu-List{
+		display: inline-table;
+		width: 49%;
+		float: left;
+        position: relative;
+		margin-bottom: 35px;
+	}
+	.Header .ML-A {
+        text-align: left;
+        width: 100%;
+        text-indent: 25px;
+    }
+	.Header .ML-B {
+        text-align: right;
+        width: 100%;
+		color: red;
+        text-indent: 35px;
+    }
+	.Header #center {
+        text-align: left;
+		margin-right: 5px;
+        width: 100%;
+		text-indent: 85px;
+
+    }
+	.Header #This {
+	display: none;
+	}
+	.Header #ML-Hid{
+	display: inline;
+	}
+	.Logo{
+	width: 150px;
+
+}
+	
+}	
+
+@media screen and (max-width: 1300px){
+.Scroll{
+	
+	height: 25%;
+	overflow: scroll;
+	background-color: #666;	
+}
+.Column-B{
+	top: 500px;
+}
+
+}
+.main{
+	clear: both;
+	position: relative;
+	margin-top: 5px;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+.main #aero{
+	width: 100%;
+	min-width: 220px;
+}
+.main #Book{
+	position:absolute;
+	/*min-width: 105px;*/
+	width: 100%;
+	bottom: 0;
+	margin-bottom: 7.5px;
+	padding: 8px;
+	float: left;
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 88%;
+	max-height: 230px;
+	background-color: #fff;
+	border: 1px solid black; /*Replace black border */
+	clear: both;
+}
+.main #Book #BookTrip{
+	background-color: #000026;
+	color: #323251;
+	text-align: center;
+	margin-top: 0;
+	line-height: 1.5em;
+	/*font-family*/
+	padding: 15px;
+}
+.main #Book .inlineOne{
+	float:left;
+	width: 200px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.main #Book .inlineTwo{
+	float:left;
+	width: 200px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.main #Book .inlineThree{
+	float: left;
+	width: 140px;
+	position: relative;
+}
+#submit{
+	width: 90px;
+	height: 30px;
+	background-color: #000040;
+	border: 1px solid #000040;
+	color: #fff;
+}
+#submit[type="submit"]:hover{
+    background-color: #00005A;
+	border: 1px solid #00005A;
+}
+.ClassSeat{
+	width: 100px;
+	color: #191976;
+	border-radius: 25px;
+}
+.Seat{
+	background-color: #666;
+}
+.Seat value[Economy]:hover{
+	background-color: red;
+	color: black;
+}
+.Seat #Col:link{
+	color: green;
+}
+.Seat #Col:active{
+	background-color: yellow;
+}
+.input{
+	margin: 5px;
+	width: 58.857%;
+}
+.Content{
+	
+}
+
+.MCOntent-Buisness .img{
+	width: 100%;
+	
+}
+.MCOntent-Rent .img{
+	width: 100%;
+	
+}
+#Buisness{
+	float: right;
+	position: relative;
+	margin-right: 4%;
+	margin-top: 1%;
+	width: 45%;
+	padding: 1px;
+}
+#Buisness #text-Buisness{
+	position: absolute;
+	bottom: 10px;
+	padding: 4px 8px;
+	background: rgba(76, 0, 0, 0.7);
+	width: 75%;
+	padding: 4px 8px;
+	color: #fff;
+	margin: 0;
+	font-family: Copperplate, sans-serif;
+	font-size: 14px;
+	clear: both;
+}
+.MCOntent{
+	width: 47.55%;
+	height: auto;
+	display: inline-block;
+}
+#Rent{
+	float:left;
+	position: relative;
+	width: 45%;
+	margin-left: 4%;
+	margin-top: 1%;
+	padding: 1px
+	
+}
+#text-Rent{
+	position: absolute;
+	bottom: 10px;
+	background: rgba(76, 0, 0, 0.7);
+	width: 75%;
+	padding: 4px 8px;
+	color: #fff;
+	margin: 0;
+	font-family: Copperplate, sans-serif;
+	font-size: 14px;
+	
+}
+.MCOntent .img{
+	width: 100%;
+	height: auto;
+}
+
+.Hov{
+	text-decoration: none;
+	background: rgba(76, 0, 0, 0.7);
+	font-size: 1.5em
+}
+.Hov a:link{
+	visibility: hidden
+}
+table{
+	margin: 5px;
+}
+table, tr {
+  
+    border-collapse: collapse;
+}
+.Major{
+	float: left;
+	width: 90%;
+	padding: 15px;
+	margin-left: 15px;
+	display: inline-table;
+}
+.Block{
+	text-decoration:none;
+	width: 90%;
+}
+.Block:visited{
+	color: black;
+}
+.Block:hover{
+	color: black;
+}
+#TabA{
+	width: 45%;
+	float: left;
+}
+#TabB{
+	width: 45%;
+	float: right;
+}
+td{
+	padding: 5px;
+}
+
+#A{
+	width: 100%;
+	background-color: #fff;
+	margin: 5px;
+	border: 1px solid #666;
+}
+
+
+
+
+.Location{
+	display: inline-block;
+}
+.C:hover{
+	background-color: #B2B2B2;
+	width: 100%;
+}
+.A:hover{
+	background-color: #B2B2B2;
+	width: 100%;
+}
+.B:hover{
+	background-color: #B2B2B2;
+	width: 100%;
+}
+
+.Location .description{
+	list-style-type: none;
+	margin: 5px;
+	margin-left: 1px;
+	padding-left: 1px;
+}
+.description .Seating{
+	
+}
+.description .Travel-Date{
+	font-size: 8px;
+
+}
+
+.Price{
+	font-size: 1em;
+	padding: 2px;
+	line-height: 15px;
+	font-weight: 100;
+	border: 1px solid #666;
+	border-width: 2px;
+}
+
+.A{
+	width: 45%;
+	background-color: #ADD8E6;
+	margin: 5px;
+	border: 1px solid #666;
+}
+
+.B{
+	width: 200px;
+	background-color: #ADD8E6;
+	margin: 5px;
+	border: 1px solid #666;
+}
+
+
+
+.C{
+	width: 200px;
+	background-color: #ADD8E6;
+	margin: 5px;
+	border: 1px solid #666;
+}
+
+
+.Featured{
+	float: left;
+	background-color: #fff;
+	font-family: Century Gothic, sans-serif;
+	color: #333333;
+	width: 92%;
+	clear: both;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+.Featured #FeaturedDest{
+	color: #fff;
+	background-color: red;
+	padding: 6px;
+}
+.Featured #India{
+	float: left;
+	width: 100%;
+	padding: 5px;
+	clear: both;
+}
+.Featured #India .ParIndia{
+	float: left;
+	margin: 1px;
+	width:  60%;
+	margin-bottom: 30px;
+	padding: 5px;
+}
+.Featured #India .ParIndia:first-line{
+	color: red;
+	font-family: courier;
+	font-weight: bold;
+}
+.Featured #India img{
+	float: right;
+}
+.Featured-Details{
+	font-size: large;
+	background-color: #4C0000;
+	color: #fff;
+	padding: 6px;
+	margin: 2px;
+	width: 80px;
+	height: 30px;
+	float:right;
+	border-radius: 0 15px 15px 0px;
+}
+.Det-A{
+	color: #fff;
+	text-decoration: none;
+}
+.Featured-Details:hover{
+	background-color: orange;
+	text-decoration: none;
+}
+.Featured #Brazil{
+	float: left;
+	width: 100%;
+	padding: 5px;
+	clear: both;
+}
+.Featured #Brazil #ParBrazil{
+	float: left;
+	margin: 1px;
+	width:  60%;
+	margin-bottom: 30px;
+	padding: 5px;
+}
+.Featured #Brazil #ParBrazil:first-line{
+	color: red;
+	font-family: courier;
+	font-weight: bold;
+}
+.Featured #Brazil img{
+	float: right;
+}
+.Featured #China{
+	float: left;
+	width: 100%;
+	padding: 5px;
+	clear: both;
+}
+.Featured #China #ParChina{
+	float: left;
+	margin: 1px;
+	width:  60%;
+	margin-bottom: 30px;
+	padding: 5px;
+}
+#ParChina:first-line{
+	color: red;
+	font-family: courier;
+	font-weight: bold;
+}
+.Featured #China img{
+	float: right;
+	
+}
+
+footer{
+	background-color: #3C0000;
+	color: white;
+	position: relative;
+	bottom: 0;
+	width: 98%;
+	margin:0 auto;
+	margin-top: 1%;
+	bottom: 0;
+	clear: both;
+}
+#background{
+	background-color: #3C0000;
+	width: 100%;
+	height: auto;
+}
+footer #info{
+	margin: 5px;
+	margin-bottom: 1px;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+.Social{
+	float: left;
+	margin: 5px;
+}
+#SocialMedia{
+	color: white;
+	list-style-type: none;
+}
+.Soc-Logo a:link, .Soc-Logo a:visited{
+	-webkit-filter: sepia(80%);
+	opacity: 0.5;
+}
+.Soc-Logo a:hover, .Soc-Logo a:active{
+	-webkit-filter: sepia(0%);
+	opacity: 0.9;
+}
+.Website-info{
+	margin: 5px;
+	display: block;
+	float: left;
+}
+#Website-AboutUs-Links{
+	float: left;
+	width: 200px;
+	text-align: left;
+	position: relative;
+}
+#Website-AboutUs{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	margin-bottom: 1px;
+	margin-left: 7px;
+}
+#Website-AboutUs-list{
+	color: white;
+	font-size: 12px;
+	list-style-type: none;
+	padding: 5px 15px 15px 0px;
+}
+
+#Website-AboutUs-list .Website-AboutUs-list-info{
+	text-align: left;
+	margin-left: 1px;
+	padding: 5px;
+}
+.Website-AboutUs-list-info a:link,.Website-AboutUs-list-info a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+.Website-AboutUs-list-info a:hover,.Website-AboutUs-list-info a:active{
+	text-decoration: none;
+	color: gray;
+} 
+#Website-Services-Links{
+	float: left;
+	width: 200px;
+	text-align: left;
+	position: relative;
+}
+#Website-Services{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	margin-bottom: 1px;
+	margin-left: 7px;
+}
+#Website-Services-list{
+	color: white;
+	font-size: 12px;
+	list-style-type: none;
+	padding: 5px 15px 15px 0px;
+	
+}
+#Website-Services-list .Website-Services-list-info{
+	text-align: left;
+	margin-left: 1px;
+	padding: 5px;
+}
+.Website-Services-list-info a:link,.Website-Services-list-info a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+.Website-Services-list-info a:hover,.Website-Services-list-info a:active{
+	text-decoration: none;
+	color: gray;
+}
+#Website-STools-Links{
+	float: right;
+	width: 200px;
+	text-align: left;
+	position: relative;
+}
+#Website-STools{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	margin-bottom: 1px;
+	margin-left: 7px;
+}
+#Website-STools-list{
+	color: white;
+	font-size: 12px;
+	list-style-type: none;
+	padding: 5px 15px 15px 0px;
+	
+}#Website-STools-list .Website-STools-list-info{
+	text-align: left;
+	margin-left: 1px;
+	padding: 5px;
+}
+.Website-STools-list-info a:link,.Website-STools-list-info a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+.Website-STools-list-info a:hover,.Website-STools-list-info a:active{
+	text-decoration: none;
+	color: gray;
+}
+#Copyright{
+	clear: both;
+	text-align: center;
+	width: 100%;
+	margin: 0px 0px 5px 0px;
+}
+#Copyright p{
+	font-family: courier;
+	text-decoration: none;
+}
+.Law a:link, .Law a:visited{
+	text-decoration: none;
+	color: #0645AD;
+}
+.Law a:hover, .Law a:active{
+	text-decoration: none;
+	color: #3366BB;
+}

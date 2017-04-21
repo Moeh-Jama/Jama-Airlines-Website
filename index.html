@@ -1,0 +1,358 @@
+<!doctype html>
+<!-- MY web site. 20th December 2015 MJ -->
+<html>
+	<head>
+	
+	
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		
+		<title>JAMA|AIRLINES</title>
+		<!--Here I have my icon logo's for my toolbar-->
+		<meta charset="UTF-8"> 
+		<link rel="apple-touch-icon" sizes="57x57" href="./Images/Icons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="./Images/Icons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="./Images/Icons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="./Images/Icons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="./Images/Icons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="./Images/Icons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="./Images/Icons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="./Images/Icons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="./Images/Icons/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="./Images/Icons/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./Images/Icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="./Images/Icons/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./Images/Icons/favicon-16x16.png">
+		<link rel="manifest" href="./Images/Icons/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+	
+		<meta name="description" 		content="Jama Airlines is a Airline Website for the Jama|Airline Ltd.">	
+		<meta name="keywords" 			content="Jama Airlines, Book, Flights, ">
+		<meta name="author" 			content="Mohamed Jama">
+		<meta http-equiv="refresh"		content="300">				
+	</head>	
+	<body>
+	<!--The header will be the most important part of my Top Row-->
+		<div class="Header">
+			<div class="container">
+				<div id="Reg">
+					<p><span id="Login"><a href="#"><span title="Login">Login &#128274;</span></a></span> | <span id="Signup"><a href="#"><span title="Signup">Sign up</span></a></span>|
+					<span id="Ssearch">earch<input id="Search" type="search" name="search" placeHolder="Search"></span></p>
+				</div>
+
+					<nav>
+						<ul class="Menu">
+						<!--I used span in order to have them read out in title description, so if they're too small they can hover to read them-->
+							<li class="Menu-List" id="center"> <a href="#"><span title="Contact Us">Contact us</span></a></li>
+							<li class="Menu-List" ><a class="ML-A" href="#" ><span title="Book Online">Bookings</span></a></li>
+							<li class="Menu-List" ><a class="ML-A" href="#" ><span title="Search For Flights!">Flights</span></a></li>
+							<li class="Menu-List" id="This" ><a class="ML-B" href="#" ><span title="Experience Jama Airlines">Experience Jama Airlines</span></a></li>
+							<!--My Experience Jama Airlines was too big so i had to create a new Link button called Momre Info! so i can have a neat tabe when minimised.-->
+							<li class="Menu-List" id="ML-Hid" ><a class="ML-B" href="#" ><span title="Experience Jama Airlines">More Info!</span></a></li>
+							<li class="Menu-List"  ><a class="ML-B" href="#" ><span title="Check in Online!">Check in</span></a></li>
+						</ul>
+						
+					</nav>
+
+					<div class="Logo">
+					<h3 id="LogoNam"><a href="#">Jama Airlines</a></h3>
+				</div>
+			
+			</div>
+		</div>
+		
+		<div class="container">
+		
+		<!--I created two separate divs in order to have two different Columns-->
+		<div class="Column-A">
+		
+		<article id="Deal-Info">
+		<h1 id="Membership-Deal"> Introducing...<br><span>ShireClub</span></h1>
+		<img id="Wing" src="./Images/ShireClub.jpg" alt="Airplane wing">
+		<p id="ShireClub">With the new <span>ShireClub</span> enjoy Premium Economy offers
+		increased personal space with more width, more pitch,up to 4" more pitch, and a wide centre console<a id="RD-MR" href="#"> &#10093;Read more..</a></p>
+		</article>
+		<article id="Jair">
+			<h1 id="Jair-Intro">Get the App</h1>
+			<img id="J-img" src="./Images/Jair.jpg" alt="mobile app">
+			<p id="JairPar">Keep your travel easily managed with the new J-Air mobile app</p>
+		</article>
+		</div>
+		
+		
+		<div class="Column-B">
+		<section class="main">
+				<img id="aero" src="./Images/airplane.jpg" alt="Aeroplane">
+				<form id="Book" autocomplete="on">
+				
+				<h1 id="BookTrip">Book a trip</h1>
+				<div class="Scroll">
+					<div class="inlineOne">
+					<div>
+						From<br><input class="input" type="text" name="City" required>
+					</div>
+					<div>
+						Departure date<br><input class="input" type="Date" name="DepartureDate" >
+					</div>
+					</div>
+					
+					<div class="inlineTwo">
+					<div >
+						To<br><input class="input" type="text" name="City" required >
+					</div>
+					<div>
+					Return Date<br><input class="input" type="date" name="ReturnDate"  >
+					</div>
+					</div>
+					
+					<div class="inineFur">
+						<div>
+							Class
+							<select class="ClassSeat" name="Class">
+							<option class="Seat" id="Col" value="Economy">Economy</option>
+							<option class="Seat" value="Buisness">Buisness</option>
+							<option class="Seat" value="First-Class">First Class</option>
+							</select>
+						</div>
+					</div>
+					
+					<div class="inlineThree">
+					<div>
+						Return<input class="input" type="radio" name="TravelType" checked>
+					</div>
+					<div>
+						One Way<input class="input" type="radio" name="TravelType">
+					</div>
+					
+					<div class="Submition">
+						<input id="submit" type="submit" value="Submit">
+					</div>
+					</div>
+					</div>
+				</form>
+				
+		</section>
+		<div class="Content">
+			<section id="Buisness" class="MCOntent-Buisness">
+				<img class="img" src="./Images/Buisness-class.jpg" alt="Buisness-class-Image">
+				<a  class="Hov" href="#"><p id="text-Buisness">Fly Buisness class</p></a>
+			</section>
+			<section id="Rent" class="MCOntent-Rent">
+				<img class="img" src="./Images/Audi.jpg" alt="Audi car" width=475>
+				<a  class="Hov" href="#"><p id="text-Rent">Rent a Car</p></a>
+			</section>
+		</div>
+		
+		<div class="Major">
+			<table id="TabA">
+			
+			<tr class="A">
+				
+				<td class="Location"><a class="Block" href="#">Berlin
+					<ul class="description">
+					<li class="Seating">Economic</li>
+					<li class="Travel-Date">Travel by 13 February 2016</li>
+					</ul>
+					</a>
+				</td>
+				<td class="Price"><a class="Block" href="#">from<br>Euro 99*</a></td>
+				
+			</tr>
+				<tr class="B">
+				
+				<td class="Location"><a class="Block" href="#">Barcelona
+					<ul class="description">
+					<li class="Seating">Economic</li>
+					<li class="Travel-Date">Travel by 5 March 2016</li>
+					</ul>
+					</a>
+				</td>
+				<td class="Price"><a class="Block" href="#">from<br>Euro 325*</a></td>
+				
+			</tr>
+			
+			
+
+			<tr class="C">
+				
+				<td class="Location"> <a class="Block" href="#">London
+					<ul class="description">
+					<li class="Seating">Economic</li>
+					<li class="Travel-Date">Travel by 13 February 2016</li>
+					</ul>
+					</a>
+				</td>
+				<td class="Price"><a class="Block" href="#">from<br>Euro 50*</a></td>
+				
+			</tr>
+				<tr class="B">
+				
+				<td class="Location"><a class="Block" href="#">New York
+					<ul class="description">
+					<li class="Seating">Buisness</li>
+					<li class="Travel-Date">Travel by 2 February 2016</li>
+					</ul>
+					</a>
+				</td>
+				<td class="Price"><a class="Block" href="#">from<br>Euro 275*</a></td>
+				
+			</tr>
+			
+		</table>
+		<table id="TabB">
+			
+			<tr class="A">
+				
+				<td class="Location"><a class="Block" href="#">Dubai
+					<ul class="description">
+					<li class="Seating">Economic</li>
+					<li class="Travel-Date">Travel by 13 February 2016</li>
+					</ul>
+					</a>
+				</td>
+				<td class="Price"><a class="Block" href="#">from<br>Euro 909*</a></td>
+				
+			</tr>
+				<tr class="B">
+				
+				<td class="Location"><a class="Block" href="#">Rome
+					<ul class="description">
+					<li class="Seating">Buisness</li>
+					<li class="Travel-Date">Travel by 25 July 2016</li>
+					</ul>
+					</a>
+				</td>
+				<td class="Price"><a class="Block" href="#">from<br>Euro 509*</a></td>
+				
+			</tr>
+			
+			
+			<tr class="A">
+				
+				<td class="Location"><a class="Block" href="#">Singapore
+					<ul class="description">
+					<li class="Seating">Economic</li>
+					<li class="Travel-Date">Travel by 30 November 2016</li>
+					</ul>
+					</a>
+				</td>
+				<td class="Price"><a class="Block" href="#">from<br>Euro 899*</a></td>
+				
+			</tr>
+				<tr class="B">
+				
+				<td class="Location"><a class="Block" href="#">Dar Es Salem
+					<ul class="description">
+					<li class="Seating">Economic</li>
+					<li class="Travel-Date">Travel by 5 March 2016</li>
+					</ul>
+					</a>
+				</td>
+				<td class="Price"><a class="Block" href="#">from<br>Euro 850*</a></td>
+				
+			</tr>
+			
+		</table>
+		
+		</div>
+		<!--p>*Terms and Conditions apply</p-->
+		
+		<section class="Featured">
+		<fieldset>
+		<legend id="FeaturedDest">Featured Locations</legend>
+			<div id="India">
+				<img class="SectOne" src="./Images/India.jpg" alt="India" width=225>
+				<p class="ParIndia">Agra is popular as the home of the world famous Taj Mahal. 
+				It is also known for other historical monuments like Agra Fort, Tomb of Akbar the 
+				great, Tomb of Itimad-ud-Daulah amoong others.
+				</p>
+				<a class="Det-A" href="#"><p class="Featured-Details" >Details</p></a>
+			</div>
+			<hr>
+			<div id="Brazil">
+			<img src="./Images/Brazil.jpg" alt="Statue of Jesus" >
+			<p>This is Brazil</p>
+			<p id="ParBrazil">Tourism is becoming a major industry in Brazil, Rio de Janeiro 
+			and São Paulo are two of the most visited destinations in the country,
+			offering visitors (whether in the country on business or pleasure) a 
+			fabulous peek into the complex heritage and natural spectacle of Brazil.</p>
+				<a class="Det-A" href="#"><p class="Featured-Details" >Details</p></a>
+			</div>
+				<hr>
+			<div id="China">
+				<img src="./Images/China.jpg" alt="Great wall of China"> 
+				<p id="ParChina">
+				China boasts a large number of wonderful tour destinations including antique sites 
+				and relics, imposing imperial palaces, delicate water towns, amazing natural wonders, 
+				splendid cultural heritage, and diversified folk customs. It will take years to visit 
+				all of these attractions, but it is fairly easily to tour the top attractions. Over years,
+				TravelChinaGuide.com has handpicked many tour itineraries to cover these highlights throughout 
+				the country. </p>
+				<a class="Det-A" href="#"><p class="Featured-Details" >Details</p></a>
+			</div>
+		</fieldset>
+		</section>
+		
+		
+	</div>
+	</div>	
+	
+		<footer>
+			<div class="container">
+			<div id="background">
+				<div id="info">
+				<div id="wrapper">
+					<div class="Social">
+						<p>Connect with us</p>
+						<ul id="SocialMedia">
+							<li class="Soc-Logo"><a href="#"><span title="Twitter"><img src="./Images/TW.png" alt="twitter" height=30 ></span></a></li>
+							<li class="Soc-Logo"><a href="#"><span title="Facebook"><img src="./Images/FB.png" alt="Facebook" height=30 ></span></a></li>
+							<li class="Soc-Logo"><a href="#"><span title="GooglePlus"><img src="./Images/G.png" alt="GooglePlus" height=30 ></span></a></li>
+							<li class="Soc-Logo"><a href="#"><span title="YouTube"><img src="./Images/YT.png" alt="YouTube" height=30 ></span></a></li>
+						</ul>
+					</div>
+					<div class="Website-info">
+						<div id="Website-AboutUs-Links">
+							<h3 id="Website-AboutUs">About Us</h3>
+							<ul id="Website-AboutUs-list">
+								<li class="Website-AboutUs-list-info"><a href="#"><span title="About US">About Us</span></a></li>
+								<li class="Website-AboutUs-list-info"><a href="#"><span title="Careers">Career</span></a></li>
+								<li class="Website-AboutUs-list-info"><a href="#"><span title="Travel Agents">Travel Agents</span></a></li>
+								<li class="Website-AboutUs-list-info"><a href="#"><span title="Legal">Legal</span></a></li>
+								<li class="Website-AboutUs-list-info"><a href="#"><span title="Sitemap">Sitemap</span></a></li>
+							</ul>
+						</div>
+						<div id="Website-Services-Links">
+							<h3 id="Website-Services">Services</h3>
+							<ul id="Website-Services-list">
+								<li class="Website-Services-list-info"><a href="#"><span title="Jama Airlines Desitinations">Jama Airlines Desitinations</span></a></li>
+								<li class="Website-Services-list-info"><a href="#"><span title="Subscribe to Offer!">Subscribe to Offer!</span></a></li>
+								<li class="Website-Services-list-info"><a href="#"><span title="ShireClub">ShireClub</span></a></li>
+								<li class="Website-Services-list-info"><a href="#"><span title="Holiday Discounts">Holiday Discounts</span></a></li>
+							</ul>
+						</div>
+						<div id="Website-STools-Links">
+							<h3 id="Website-STools">Site tools</h3>
+							<ul id="Website-STools-list">
+								<li class="Website-STools-list-info"><a href="#"><span title="Flight Status">Flight Status</span></a></li>
+								<li class="Website-STools-list-info"><a href="#"><span title="Check in online">Check in online</span></a></li>
+								<li class="Website-STools-list-info"><a href="#"><span title="Go to mobile site">Go to mobile site</span></a></li>
+								<li class="Website-STools-list-info"><a href="#"><span title="Search flights">Search flights</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="Copyright">
+						<hr>
+						<p> <small>Copyright&copy; 2016 Jama Airlines & JamaAir ltd. All rights reserved</small></p>
+						<p class="Law"><a  href="#"><span title="Terms and Conditions">Terms and Conditions</span></a> apply to all offers </p>
+						<p class="Law"><a href="#"><span title="Privacy Policy">Privacy Policy</span></a></p>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</footer>	
+		
+	</body>
+</html>
